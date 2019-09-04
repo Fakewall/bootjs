@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<!-- viewport - сайт сам сжимается, если экран мал-->
+	<meta name="viewport" content="widhth=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>New Page</title>
+
+	<!--bootstrapcdn файлы бутстрап содержатся на сервере -->
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<!--иконка сайта -->
+	<link rel="icon" href=/img/favicon.ico"">
+
+
+</head>
+<body>
+
+<!--шапка авторизации -->
+<div class="container">
+	<div class="row">
+		<a href="#">Войти</a>
+		<div class="col">
+			<a href="#">Создать аккаунт</a>
+		</div>
+	</div>
+</div>
+	<!--шапка шаблона бустрап сайта -->
+<header class="masthead mb-2">
+      <nav class="nav nav-masthead justify-content-center">
+  <a class="navbar-brand" href="#">
+    <img src="img/logo.webp" width="30" height="30" alt="">
+  </a>
+
+
+        <a class="nav-link active" href="">Главная</a>
+        <a class="nav-link" href="#">Музыка</a>
+        <a class="nav-link" href="#">Демо</a>
+        <a class="nav-link" href="#">О нас</a>
+      </nav>
+    </div>
+</header>
+
+<!-- карусель  style="max-width: 1200px" но почему то игнорирует центрирование-->
+<div class="Media mb-5">
+	<div id="carousel" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="img/homepage_hero_image.jpg" class="d-block w-100" alt="...">
+				<div class="carousel-caption d-none d-md-block">
+					<h1>Slide label</h1>
+					<h5>Что-то невероятное, описание</h5>
+					<button type="button" class="btn btn-dark">Слушать</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Инфо контент -->
+<div class="container mt-5 mb-5">
+	<div class="row">
+	  <div class="col">
+		<label for="exampleInputEmail1">Инфо</label>
+			  <p>
+				  <a href="">Лицензия</a>
+			  </p>
+			  <p>
+				  <a href="">Политика конфиденциальности</a>
+			  </p>
+			  <p>
+				  <a href="">Работа</a>
+			  </p>
+	  </div>
+	  <div class="col">
+			  <label for="exampleInputEmail1">Связаться с нами</label>
+			  <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+	  </div>
+	  <div class="col">
+			  <form>
+			<div class="form-group">
+			  <label for="exampleInputEmail1">Email</label>
+			   <p>
+			  Вы можете подписаться на нашу рассылку.
+			  </p>
+			</div>
+			  <input type="email" class="form-control mb-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+			<button type="submit" class="btn btn-dark">Отправить</button>
+			  </form>
+	  </div>
+	</div>
+  
+<!-- Футер -->
+<footer class="mastfoot mt-5">
+    <div class="inner">
+      <p>Все права защищены. Дизайн подготовлен <a href="">@xdxdmo</a>.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
